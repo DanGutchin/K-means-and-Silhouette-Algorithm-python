@@ -1,4 +1,5 @@
 # K-means-and-Silhouette-Algorithm-python
+This algorithm is an improvement to the k-means algorithm by using vectorization methods.
 ## K-means algorithem:
 1. Decide on a value for k.	
 2. Initialize the k cluster centers.	
