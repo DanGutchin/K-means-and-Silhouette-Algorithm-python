@@ -11,3 +11,17 @@
 2. For each data point compute its distance from the nearest, previously chosen centroid.
 3. Select the next centroid from the data points such that the probability of choosing a point as centroid is directly proportional to its distance from the nearest, previously chosen centroid. (i.e. the point having maximum distance from the nearest centroid is most likely to be selected next as a centroid)
 4. Repeat steps 2 and 3 until k centroids have been sampled
+
+## K-means++ optimization:
+
+![image](https://user-images.githubusercontent.com/74405706/173426461-bd4e57e5-86c6-41d2-9a17-7147d87f16d4.png)
+![image](https://user-images.githubusercontent.com/74405706/173426521-de9eeb43-9365-48e3-b106-bceeadd6984e.png)
+
+## Results
+SKLearn’s speed is approximately: 4.5 seconds (on my machine)
+
+Our implementation’s speed is approximately: 1.7 seconds (on my machine)
+
+The difference between the speeds is due to the fact that our implementation is based on Euclidean distance unlike the existing implementation.
+
+
